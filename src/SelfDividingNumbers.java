@@ -5,7 +5,7 @@ import java.util.List;
  * 自除数
  * <p>
  * 解题思路：
- * 暴力解法：逐个字符取模比较。
+ * 暴力解法：逐个字符取模比较
  *
  * @author kundy
  * @date 2019/7/6 11:49 AM
