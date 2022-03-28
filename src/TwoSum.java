@@ -18,12 +18,12 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    private static int[] array = {2, 7, 11, 15};
-    private static int target = 26;
+    private static int[] array = {2, 7, 11, 15, 4};
+    private static int target = 19;
 
 
     public static void main(String[] args) {
-        int[] ints = wayTwo();
+        int[] ints = wayThree();
         for (int anInt : ints) {
             System.out.println(anInt);
         }
@@ -57,6 +57,22 @@ public class TwoSum {
             }
         }
 
+        return null;
+    }
+
+    public static int[] wayThree() {
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < array.length; i++) {
+
+            map.put(array[i], i);
+            int tmpNum = target - array[i];
+            if (map.containsKey(tmpNum)) {
+                return new int[]{map.get(tmpNum), i};
+            }
+
+        }
         return null;
     }
 
