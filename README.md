@@ -1,4 +1,7 @@
+**剑指offer**
+- [数组中重复的数字](src/offer/FindRepeatNum.java)
 
+**LeetCode**
 - [两数之和](src/TwoSum.java)
 - [图像反转](src/FlipAndInvertImage.java)
 - [转换成小写字母](src/ToLowerCase.java)
