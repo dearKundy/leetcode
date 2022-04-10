@@ -1,5 +1,6 @@
 **剑指offer**
 - [数组中重复的数字](src/offer/FindRepeatNum.java)
+- [二维数组中的查询](src/offer/FindNumberIn2DArray.java)
 
 **LeetCode**
 - [两数之和](src/TwoSum.java)
