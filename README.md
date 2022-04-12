@@ -3,6 +3,11 @@
 - [二维数组中的查询](src/offer/FindNumberIn2DArray.java)
 - [替换空格](src/offer/ReplaceSpace.java)
 
+**数据结构**
+
+- [链表](src/datastructure/MyLinkedList.java)
+- [二叉树遍历](src/datastructure/BinaryTreeTraversal.java)
+
 **LeetCode**
 - [两数之和](src/TwoSum.java)
 - [图像反转](src/FlipAndInvertImage.java)
@@ -23,7 +28,6 @@
 - [重复 N 次的元素](src/RepeatedNTimes.java)
 - [回文数](src/IsPalindrome.java)
 - [连续字符串](src/MaxPower.java)
-- [链表](src/MyLinkedList.java)
 
 **排序**
 

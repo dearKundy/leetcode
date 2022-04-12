@@ -1,3 +1,5 @@
+package datastructure;
+
 /**
  * 链表
  *
