@@ -15,7 +15,10 @@ public class BubbleSort {
 
     public static Integer[] sort(Integer[] array) {
 
+        // 通过i控制每一轮的 "底部"，每一轮可以得出当前最大值
         for (int i = array.length - 1; i > 0; i--) {
+
+            // 每一轮都是从0开始，一直比较交换，直到触底
             for (int j = 0; j < i; j++) {
                 if (array[j] > array[j + 1]) {
                     swap(array, j, j + 1);
