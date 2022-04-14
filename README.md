@@ -28,6 +28,7 @@
 - [重复 N 次的元素](src/RepeatedNTimes.java)
 - [回文数](src/IsPalindrome.java)
 - [连续字符串](src/MaxPower.java)
+- [二分查找](src/BinarySearch.java)
 
 **排序**
 
