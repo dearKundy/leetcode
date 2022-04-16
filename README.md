@@ -4,6 +4,7 @@
 - [二维数组中的查询](src/offer/FindNumberIn2DArray.java)
 - [替换空格](src/offer/ReplaceSpace.java)
 - [用栈实现队列](src/offer/MyQueue.java)
+- [斐波那契数列](src/offer/Fib.java)
 
 **数据结构**
 
