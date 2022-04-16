@@ -1,7 +1,9 @@
 **剑指offer**
+
 - [数组中重复的数字](src/offer/FindRepeatNum.java)
 - [二维数组中的查询](src/offer/FindNumberIn2DArray.java)
 - [替换空格](src/offer/ReplaceSpace.java)
+- [用栈实现队列](src/offer/MyQueue.java)
 
 **数据结构**
 
@@ -9,6 +11,7 @@
 - [二叉树遍历](src/datastructure/BinaryTreeTraversal.java)
 
 **LeetCode**
+
 - [两数之和](src/TwoSum.java)
 - [图像反转](src/FlipAndInvertImage.java)
 - [转换成小写字母](src/ToLowerCase.java)
