@@ -5,6 +5,7 @@
 - [替换空格](src/offer/ReplaceSpace.java)
 - [用栈实现队列](src/offer/MyQueue.java)
 - [斐波那契数列](src/offer/Fib.java)
+- [爬楼梯](src/offer/NumWays.java)
 
 **数据结构**
 
