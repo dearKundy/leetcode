@@ -1,5 +1,5 @@
 /**
- * 二分查找
+ * 二分查找【在一个有序的数组里找到目标元素】
  *
  * @author kundy
  * @date 2022/4/14 9:28 PM
@@ -18,12 +18,12 @@ public class BinarySearch {
                 return middle;
             }
 
-            //  target 在中位数左边，右指针靠拢
+            //  target 在中位数左边，右指针靠拢，可以确定middle肯定不是我们的目标预算，所以right可以向前移动一位
             if (target < nums[middle]) {
                 right = middle - 1;
             }
 
-            // target 在中位数右边，左指针靠拢
+            // target 在中位数右边，左指针靠拢，可以确定middle肯定不是我们的目标预算，所以left可以向后移动一位
             if (target > nums[middle]) {
                 left = middle + 1;
             }

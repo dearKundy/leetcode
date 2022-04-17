@@ -6,6 +6,8 @@
 - [用栈实现队列](src/offer/MyQueue.java)
 - [斐波那契数列](src/offer/Fib.java)
 - [爬楼梯](src/offer/NumWays.java)
+- [旋转数组中的最小值-不含重复元素](src/FindMin.java)
+- [旋转数组中的最小值-含重复元素](src/offer/MinArray.java)
 
 **数据结构**
 
