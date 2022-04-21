@@ -6,5 +6,16 @@ package offer;
  * @author kundy
  * @date 2022/4/21 10:04 PM
  */
-public class HanmingWeight {
+public class HammingWeight {
+
+    public static int go(int n) {
+        int result = 0;
+        for (int i = 0; i < 32; i++) {
+            if ((n & (1 << i)) != 0) {
+                result++;
+            }
+        }
+        return result;
+    }
+
 }

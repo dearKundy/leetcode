@@ -11,6 +11,7 @@
 - [矩阵中的路径](src/offer/MatrixRoad.java)
 - [机器人的运动范围](src/offer/MovingCount.java)
 - [打印从1到最大的n位数](src/offer/PrintNumbers.java)
+- [二进制中1的个数](src/offer/HammingWeight.java)
 
 **数据结构**
 
