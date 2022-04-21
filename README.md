@@ -10,6 +10,7 @@
 - [旋转数组中的最小值-含重复元素](src/offer/MinArray.java)
 - [矩阵中的路径](src/offer/MatrixRoad.java)
 - [机器人的运动范围](src/offer/MovingCount.java)
+- [打印从1到最大的n位数](src/offer/PrintNumbers.java)
 
 **数据结构**
 

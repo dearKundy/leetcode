@@ -30,9 +30,11 @@ public class MovingCount {
             int[] currentEle = queue.poll();
             result++;
 
+            // 当前推出元素的XY坐标
             int currentEleX = currentEle[0];
             int currentEleY = currentEle[1];
 
+            // 控制方向
             int[] dx = new int[]{1, 0};
             int[] dy = new int[]{0, 1};
 
@@ -57,6 +59,9 @@ public class MovingCount {
         return result;
     }
 
+    /**
+     * 坐标求和
+     */
     private static int calSum(int num) {
         int sum = 0;
         while (num != 0) {
