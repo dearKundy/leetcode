@@ -12,6 +12,7 @@
 - [机器人的运动范围](src/offer/MovingCount.java)
 - [打印从1到最大的n位数](src/offer/PrintNumbers.java)
 - [二进制中1的个数](src/offer/HammingWeight.java)
+- [割绳子](src/offer/CuttingRope.java)
 
 **数据结构**
 
