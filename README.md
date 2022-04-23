@@ -13,6 +13,7 @@
 - [打印从1到最大的n位数](src/offer/PrintNumbers.java)
 - [二进制中1的个数](src/offer/HammingWeight.java)
 - [割绳子](src/offer/CuttingRope.java)
+- [剪绳子II](src/offer/CuttingRopeII.java)
 
 **数据结构**
 
