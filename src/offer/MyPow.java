@@ -42,7 +42,10 @@ public class MyPow {
         double result = quickMul(x, n / 2);
         // 如果 n 为偶数：x^n=y^2
         // 如果 n 为奇数：x^n=y^2*x【如果为奇数开方之后，还需要再补一次x】
-        // 其中n为次方数，y为上一次计算的结果
+        // 其中n为当前次方数，y为上一次计算的结果
+        // 可以看到n的作用仅用于调节当前结果是result的平方还是result的平方再乘x
+        // 还是挺巧妙的，仅做这个微调，而不是一直乘2，就能得到任意的结果
+        // 【其实如果目标次方是偶数，一直乘2是没有问题的，但是如果是奇数，一直乘2就会错过】
         return n % 2 == 0 ? result * result : result * result * x;
     }
 

@@ -15,6 +15,7 @@
 - [割绳子](src/offer/CuttingRope.java)
 - [剪绳子II](src/offer/CuttingRopeII.java)
 - [数值的整数次方](src/offer/MyPow.java)
+- [调整数组顺序使奇数位于偶数前面](/src/offer/ExchangeOddAndEven.java)
 
 **数据结构**
 
