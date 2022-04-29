@@ -19,6 +19,8 @@
 - [合并两个排序的链表](src/offer/MergeTwoLists.java)
 - [二叉树的镜像](src/offer/MirrorTree.java)
 - [对称的二叉树](src/offer/IsSymmetric.java)
+- [顺时针打印矩阵](src/offer/SpiralOrder.java)
+- [从上到下打印二叉树](src/offer/LevelOrder.java)
 
 **数据结构**
 

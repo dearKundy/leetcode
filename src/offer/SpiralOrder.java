@@ -64,10 +64,6 @@ public class SpiralOrder {
             if (tmpCurrentCol >= colNum || tmpCurrentRow >= rowNum || tmpCurrentCol < 0 || tmpCurrentRow < 0 || visited[tmpCurrentRow][tmpCurrentCol] == 1) {
                 currentDirection = NEXT_DIRECTION_MAP.get(currentDirection);
                 ints = CURRENT_DIRECTION_MAP.get(currentDirection);
-
-                currentRow += ints[0];
-                currentCol += ints[1];
-                continue;
             }
 
             currentRow += ints[0];
