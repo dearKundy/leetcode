@@ -24,6 +24,7 @@
 - [从上到下打印二叉树 II](src/offer/LevelOrderII.java)
 - [包含min函数的栈](src/offer/MinStack.java)
 - [栈的压入、弹出序列](src/offer/ValidateStackSequences.java)
+- [二叉搜索树的后序遍历序列](src/offer/VerifyPostorder.java)
 
 **数据结构**
 
