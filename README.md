@@ -27,6 +27,7 @@
 - [二叉搜索树的后序遍历序列](src/offer/VerifyPostorder.java)
 - [复制复杂链表](src/offer/CopyRandomList.java)
 - [数组中出现次数超过一半的数字](src/offer/MajorityElement.java)
+- [最小的k个数](src/offer/GetLeastNumbers.java)
 
 **数据结构**
 
