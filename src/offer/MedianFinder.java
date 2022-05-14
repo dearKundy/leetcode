@@ -37,7 +37,7 @@ public class MedianFinder {
         }
         // 放入小顶堆【保存较大一部分数据】
         else {
-            // 保证大顶堆中不能有比小顶堆中还要大的元素
+            // bigHeap：来，大的给你，小的我留下
             bigHeap.offer(num);
             smallHeap.offer(bigHeap.poll());
         }

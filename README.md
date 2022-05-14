@@ -29,6 +29,7 @@
 - [数组中出现次数超过一半的数字](src/offer/MajorityElement.java)
 - [最小的k个数](src/offer/GetLeastNumbers.java)
 - [数据流中的中位数](src/offer/MedianFinder.java)
+- [连续子数组的最大和](src/offer/MaxSubArray.java)
 
 **数据结构**
 
