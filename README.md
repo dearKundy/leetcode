@@ -35,6 +35,7 @@
 
 - [链表](src/datastructure/MyLinkedList.java)
 - [二叉树遍历](src/datastructure/BinaryTreeTraversal.java)
+- [前缀树](src/datastructure/MyTrie.java)
 
 **LeetCode**
 
