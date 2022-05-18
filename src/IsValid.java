@@ -20,19 +20,23 @@ public class IsValid {
     public static boolean isValid(String s) {
         Deque<Character> stack = new LinkedList<>();
         char[] chars = s.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (map.containsKey(chars[i])) {
+        for (char aChar : chars) {
+            // 如果是右括号，出栈，并检查是否是对应的左括号
+            if (map.containsKey(aChar)) {
                 Character peek = stack.peek();
-                if (peek == null || !peek.equals(map.get(chars[i]))) {
+                if (peek == null || !peek.equals(map.get(aChar))) {
                     return false;
                 }
                 stack.pop();
-            } else {
-                stack.push(chars[i]);
+            }
+            // 左括号，直接入栈
+            else {
+                stack.push(aChar);
             }
 
         }
 
+        // 如果全部一一匹配，stack理应为空
         return stack.isEmpty();
     }
 

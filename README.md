@@ -60,6 +60,7 @@
 - [连续字符串](src/MaxPower.java)
 - [二分查找](src/BinarySearch.java)
 - [有效的括号](src/IsValid.java)
+- [滑动窗口最大值](src/MaxSlidingWindow.java)
 
 **排序**
 
