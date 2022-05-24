@@ -62,6 +62,7 @@
 - [有效的括号](src/IsValid.java)
 - [滑动窗口最大值](src/MaxSlidingWindow.java)
 - [三数之和](src/ThreeSum.java)
+- [验证二叉搜索树](src/IsValid.java)
 
 **排序**
 
