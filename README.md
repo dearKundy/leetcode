@@ -64,6 +64,7 @@
 - [三数之和](src/ThreeSum.java)
 - [验证二叉搜索树](src/IsValidBST.java)
 - [买卖股票的最佳时机 II](src/MaxProfit.java)
+- [二叉树的最大深度](src/MaxDepth.java)
 
 **排序**
 
