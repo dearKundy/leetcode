@@ -62,7 +62,8 @@
 - [有效的括号](src/IsValid.java)
 - [滑动窗口最大值](src/MaxSlidingWindow.java)
 - [三数之和](src/ThreeSum.java)
-- [验证二叉搜索树](src/IsValid.java)
+- [验证二叉搜索树](src/IsValidBST.java)
+- [买卖股票的最佳时机 II](src/MaxProfit.java)
 
 **排序**
 
