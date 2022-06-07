@@ -66,6 +66,7 @@
 - [买卖股票的最佳时机 II](src/MaxProfit.java)
 - [二叉树的最大深度](src/MaxDepth.java)
 - [二叉树的最小深度](src/MinDepth.java)
+- [有效的数独](src/IsValidSudoku.java)
 
 **排序**
 
