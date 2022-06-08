@@ -67,6 +67,7 @@
 - [二叉树的最大深度](src/MaxDepth.java)
 - [二叉树的最小深度](src/MinDepth.java)
 - [有效的数独](src/IsValidSudoku.java)
+- [N皇后](src/SolveNQueens.java)
 
 **排序**
 
