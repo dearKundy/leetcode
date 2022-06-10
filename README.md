@@ -68,6 +68,7 @@
 - [二叉树的最小深度](src/MinDepth.java)
 - [有效的数独](src/IsValidSudoku.java)
 - [N皇后](src/SolveNQueens.java)
+- [三角形最小路径和](src/MinimumTotal.java)
 
 **排序**
 
