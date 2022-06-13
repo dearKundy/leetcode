@@ -69,6 +69,7 @@
 - [有效的数独](src/IsValidSudoku.java)
 - [N皇后](src/SolveNQueens.java)
 - [三角形最小路径和](src/MinimumTotal.java)
+- [乘积最大子数组](src/MaxProduct.java)
 
 **排序**
 
