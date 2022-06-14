@@ -71,6 +71,9 @@
 - [三角形最小路径和](src/MinimumTotal.java)
 - [乘积最大子数组](src/MaxProduct.java)
 
+**股票系列**
+- [买卖股票的最佳时机](/src/stock/Stock121.java)
+
 **排序**
 
 - [选择排序](src/sort/SelectSort.java)

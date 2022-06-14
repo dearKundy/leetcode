@@ -39,7 +39,6 @@ public class MaxProduct {
 
         for (int i = 1; i < nums.length; i++) {
 
-
             // 0 1 0 1 0 1
             int x = i % 2;
             // 1 0 1 0 1 0
@@ -48,7 +47,7 @@ public class MaxProduct {
             // 每次循环，我们只需要上一次的结果，所以长度为的数组
             // 取三者中最大的一个
             dp[x][0] = Math.max(dp[y][0] * nums[i], Math.max(dp[y][1] * nums[i], nums[i]));
-            dp[x][1] = nums[i] > 0 ? Math.min(dp[i - 1][1] * nums[i], nums[i]) : Math.min(dp[i - 1][0] * nums[i], nums[i]);
+            dp[x][1] = Math.min(dp[y][0] * nums[i], Math.min(dp[y][1] * nums[i], nums[i]));
 
             res = Math.max(res, dp[x][0]);
         }
