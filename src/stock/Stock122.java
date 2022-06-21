@@ -1,10 +1,12 @@
+package stock;
+
 /**
- * 122. 买卖股票的最佳时机 II
+ * 122. 买卖股票的最佳时机 II【可以买卖无数次】
  *
  * @author kundy
  * @date 2022/5/26 15:24
  */
-public class MaxProfit {
+public class Stock122 {
 
     public int maxProfit(int[] prices) {
 

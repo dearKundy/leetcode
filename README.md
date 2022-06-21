@@ -63,16 +63,19 @@
 - [滑动窗口最大值](src/MaxSlidingWindow.java)
 - [三数之和](src/ThreeSum.java)
 - [验证二叉搜索树](src/IsValidBST.java)
-- [买卖股票的最佳时机 II](src/MaxProfit.java)
 - [二叉树的最大深度](src/MaxDepth.java)
 - [二叉树的最小深度](src/MinDepth.java)
 - [有效的数独](src/IsValidSudoku.java)
 - [N皇后](src/SolveNQueens.java)
 - [三角形最小路径和](src/MinimumTotal.java)
 - [乘积最大子数组](src/MaxProduct.java)
+- [300. 最长递增子序列](src/LengthOfLIS.java)
 
 **股票系列**
-- [买卖股票的最佳时机](/src/stock/Stock121.java)
+- [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
+- [122. 买卖股票的最佳时机 II](src/stock/Stock122.java)
+- [123. 买卖股票的最佳时机 III](src/stock/Stock123.java)
+- [188. 买卖股票的最佳时机 IV](src/stock/Stock188.java)
 
 **排序**
 
