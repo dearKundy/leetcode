@@ -70,6 +70,7 @@
 - [三角形最小路径和](src/MinimumTotal.java)
 - [乘积最大子数组](src/MaxProduct.java)
 - [300. 最长递增子序列](src/LengthOfLIS.java)
+- [322. 零钱兑换](src/CoinChange.java)
 
 **股票系列**
 - [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
