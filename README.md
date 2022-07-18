@@ -30,6 +30,7 @@
 - [最小的k个数](src/offer/GetLeastNumbers.java)
 - [数据流中的中位数](src/offer/MedianFinder.java)
 - [连续子数组的最大和](src/offer/MaxSubArray.java)
+- [1～n 整数中 1 出现的次数](src/offer/CountDigitOne.java)
 
 **数据结构**
 
@@ -71,6 +72,7 @@
 - [乘积最大子数组](src/MaxProduct.java)
 - [300. 最长递增子序列](src/LengthOfLIS.java)
 - [322. 零钱兑换](src/CoinChange.java)
+- [146. LRU 缓存](src/LRUCache.java)
 
 **股票系列**
 - [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
