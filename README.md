@@ -31,6 +31,7 @@
 - [数据流中的中位数](src/offer/MedianFinder.java)
 - [连续子数组的最大和](src/offer/MaxSubArray.java)
 - [1～n 整数中 1 出现的次数](src/offer/CountDigitOne.java)
+- [扑克牌中的顺子](src/offer/IsStraight.java)
 
 **数据结构**
 
