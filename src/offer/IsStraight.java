@@ -13,7 +13,6 @@ public class IsStraight {
         System.out.println(new IsStraight().isStraight(new int[]{1, 2, 3, 4, 5}));
     }
 
-
     public boolean isStraight(int[] nums) {
 
         // 这里的初始化值妙得很，最大、最小变量初始化值分别设置为扑克牌的最小、最大值，以保证后面一定能够被正确置换

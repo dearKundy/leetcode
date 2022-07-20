@@ -32,6 +32,7 @@
 - [连续子数组的最大和](src/offer/MaxSubArray.java)
 - [1～n 整数中 1 出现的次数](src/offer/CountDigitOne.java)
 - [扑克牌中的顺子](src/offer/IsStraight.java)
+- [把数组排成最小的数](src/offer/MinNumber.java)
 
 **数据结构**
 
@@ -76,6 +77,7 @@
 - [146. LRU 缓存](src/LRUCache.java)
 
 **股票系列**
+
 - [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
 - [122. 买卖股票的最佳时机 II](src/stock/Stock122.java)
 - [123. 买卖股票的最佳时机 III](src/stock/Stock123.java)
