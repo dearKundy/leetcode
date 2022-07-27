@@ -33,6 +33,7 @@
 - [1～n 整数中 1 出现的次数](src/offer/CountDigitOne.java)
 - [扑克牌中的顺子](src/offer/IsStraight.java)
 - [把数组排成最小的数](src/offer/MinNumber.java)
+- [剑指 Offer 48. 最长不含重复字符的子字符串](src/offer/LengthOfLongestSubstring.java)
 
 **数据结构**
 
