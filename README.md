@@ -34,6 +34,7 @@
 - [扑克牌中的顺子](src/offer/IsStraight.java)
 - [把数组排成最小的数](src/offer/MinNumber.java)
 - [剑指 Offer 48. 最长不含重复字符的子字符串](src/offer/LengthOfLongestSubstring.java)
+- [剑指 Offer 49. 丑数](src/offer/NthUglyNumber.java)
 
 **数据结构**
 
