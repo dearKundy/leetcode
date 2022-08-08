@@ -35,6 +35,7 @@
 - [把数组排成最小的数](src/offer/MinNumber.java)
 - [剑指 Offer 48. 最长不含重复字符的子字符串](src/offer/LengthOfLongestSubstring.java)
 - [剑指 Offer 49. 丑数](src/offer/NthUglyNumber.java)
+- [剑指 Offer 50. 第一个只出现一次的字符](/src/offer/FirstUniqChar.java)
 
 **数据结构**
 
