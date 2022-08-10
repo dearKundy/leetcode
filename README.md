@@ -38,6 +38,7 @@
 - [剑指 Offer 50. 第一个只出现一次的字符](/src/offer/FirstUniqChar.java)
 - [剑指 Offer 56 - I. 数组中数字出现的次数](src/offer/SingleNumbers.java)
 - [剑指 Offer 44. 数字序列中某一位的数字](src/offer/FindNthDigit.java)
+- [剑指 Offer 46. 把数字翻译成字符串](src/offer/TranslateNum.java)
 
 **数据结构**
 
