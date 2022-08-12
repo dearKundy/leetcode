@@ -40,6 +40,7 @@
 - [剑指 Offer 44. 数字序列中某一位的数字](src/offer/FindNthDigit.java)
 - [剑指 Offer 46. 把数字翻译成字符串](src/offer/TranslateNum.java)
 - [剑指 Offer 47. 礼物的最大价值](src/offer/MaxValue.java)
+- [剑指 Offer 59 - II. 队列的最大值](src/offer/MaxQueue.java)
 
 **数据结构**
 
