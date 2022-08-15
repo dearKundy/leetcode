@@ -42,6 +42,7 @@
 - [剑指 Offer 47. 礼物的最大价值](src/offer/MaxValue.java)
 - [剑指 Offer 59 - II. 队列的最大值](src/offer/MaxQueue.java)
 - [剑指 Offer 53 - II. 0～n-1中缺失的数字](src/offer/MissingNumber.java)
+- [剑指 Offer 52. 两个链表的第一个公共节点](src/offer/GetIntersectionNode.java)
 
 **数据结构**
 
