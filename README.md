@@ -44,6 +44,7 @@
 - [剑指 Offer 53 - II. 0～n-1中缺失的数字](src/offer/MissingNumber.java)
 - [剑指 Offer 52. 两个链表的第一个公共节点](src/offer/GetIntersectionNode.java)
 - [剑指 Offer 64. 求1+2+…+n](src/offer/SumNums.java)
+- [剑指 Offer 66. 构建乘积数组](src/offer/ConstructArr.java)
 
 **数据结构**
 
