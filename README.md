@@ -88,6 +88,7 @@
 - [300. 最长递增子序列](src/LengthOfLIS.java)
 - [322. 零钱兑换](src/CoinChange.java)
 - [146. LRU 缓存](src/LRUCache.java)
+- [11. 盛最多水的容器](src/MaxArea.java)
 
 **股票系列**
 
