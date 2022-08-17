@@ -12,7 +12,7 @@ public class ConstructArr {
 
         int length = a.length;
 
-        if (length<=0){
+        if (length <= 0) {
             return a;
         }
 
