@@ -90,6 +90,7 @@
 - [146. LRU 缓存](src/LRUCache.java)
 - [11. 盛最多水的容器](src/MaxArea.java)
 - [31. 下一个排列](src/NextPermutation.java)
+- [32. 最长有效括号](src/LongestValidParentheses.java)
 
 **股票系列**
 
