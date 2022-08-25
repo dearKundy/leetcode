@@ -271,6 +271,33 @@ public class MyLinkedList {
         return length;
     }
 
+    public MyLinkedList mergeTwoList(MyLinkedList list1, MyLinkedList list2) {
+
+        Node head1 = list1.head;
+        Node head2 = list2.head;
+        MyLinkedList res = new MyLinkedList();
+
+        while (head1 != null || head2 != null) {
+
+            int data1 = head1 == null ? Integer.MAX_VALUE : head1.data;
+            int data2 = head2 == null ? Integer.MAX_VALUE : head2.data;
+            int curData = 0;
+
+            if (data1 <= data2 && head1 != null) {
+                curData = data1;
+                head1 = head1.next;
+            } else {
+                curData = data2;
+                head2 = head2.next;
+            }
+
+            res.addNode(curData);
+        }
+
+        return res;
+
+    }
+
     /**
      * 打印链表
      */
@@ -286,9 +313,20 @@ public class MyLinkedList {
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.addNode(1);
         myLinkedList.addNode(2);
-        myLinkedList.addNode(2);
+        myLinkedList.addNode(3);
         myLinkedList.addNode(4);
         myLinkedList.addNode(5);
+
+        MyLinkedList myLinkedList2 = new MyLinkedList();
+        myLinkedList.addNode(6);
+        myLinkedList.addNode(7);
+        myLinkedList.addNode(8);
+        myLinkedList.addNode(9);
+        myLinkedList.addNode(10);
+
+        MyLinkedList myLinkedList1 = myLinkedList.mergeTwoList(myLinkedList, myLinkedList2);
+        myLinkedList1.printList();
+
 
 //        myLinkedList.deleteNode(3);
 
@@ -302,7 +340,7 @@ public class MyLinkedList {
 
 //        myLinkedList.deleteDuplicate();
 
-        myLinkedList.printListRecursionTailToHead(myLinkedList.head);
+//        myLinkedList.printListRecursionTailToHead(myLinkedList.head);
 
 
     }
