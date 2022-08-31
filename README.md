@@ -89,6 +89,7 @@
 - [23. 合并K个升序链表](src/MergeKLists.java)
 - [31. 下一个排列](src/NextPermutation.java)
 - [32. 最长有效括号](src/LongestValidParentheses.java)
+- [33. 搜索旋转排序数组](src/Search.java)
 - [42. 接雨水](src/Trap.java)
 - [146. LRU 缓存](src/LRUCache.java)
 - [300. 最长递增子序列](src/LengthOfLIS.java)
