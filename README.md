@@ -91,6 +91,7 @@
 - [32. 最长有效括号](src/LongestValidParentheses.java)
 - [33. 搜索旋转排序数组](src/Search.java)
 - [42. 接雨水](src/Trap.java)
+- [48. 旋转图像](src/Rotate.java)
 - [146. LRU 缓存](src/LRUCache.java)
 - [300. 最长递增子序列](src/LengthOfLIS.java)
 - [322. 零钱兑换](src/CoinChange.java)
