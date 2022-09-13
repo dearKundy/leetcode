@@ -53,6 +53,7 @@
 - [前缀树](src/datastructure/MyTrie.java)
 
 **LeetCode**
+
 - [1. 两数之和](src/TwoSum.java)
 - [2. 两数相加](src/AddTwoNumbers.java)
 - [9. 回文数](src/IsPalindrome.java)
@@ -65,6 +66,7 @@
 - [33. 搜索旋转排序数组](src/Search.java)
 - [36. 有效的数独](src/IsValidSudoku.java)
 - [42. 接雨水](src/Trap.java)
+- [46. 全排列](src/Permute.java)
 - [48. 旋转图像](src/Rotate.java)
 - [51. N皇后](src/SolveNQueens.java)
 - [55. 跳跃游戏](src/CanJump.java)
