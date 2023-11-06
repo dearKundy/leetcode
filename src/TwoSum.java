@@ -62,13 +62,19 @@ public class TwoSum {
 
     public static int[] wayThree() {
 
+        // 用 Map 将数组中的【数值】与其对应的【索引】保存起来，
+        // key=数值，value=索引
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < array.length; i++) {
 
+            // 先将当前的元素存储起来
             map.put(array[i], i);
+            // 当前元素array[i]的匹配数值
             int tmpNum = target - array[i];
+            // 到map中寻找匹配数值，如果找到可返回
             if (map.containsKey(tmpNum)) {
+                // map中元素在前，因为能从map中取出的，证明肯定是先放进去的
                 return new int[]{map.get(tmpNum), i};
             }
 
