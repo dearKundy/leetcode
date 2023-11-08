@@ -56,6 +56,7 @@
 
 - [1. 哈希-两数之和](src/TwoSum.java)
 - [49. 哈希-字母异位词分组](src/GroupAnagrams.java)
+- [128. 哈希-最长连续序列](src/LongestConsecutive.java)]
 - [2. 两数相加](src/AddTwoNumbers.java)
 - [9. 回文数](src/IsPalindrome.java)
 - [11. 盛最多水的容器](src/MaxArea.java)
