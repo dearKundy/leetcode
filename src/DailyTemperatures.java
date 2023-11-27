@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * 每日温度
+ * 单调栈-每日温度
  * 使用单调栈，当前元素比栈顶元素大的，栈顶元素出栈（记录解【下标】）
  * 如果当前元素比栈顶元素小，入栈
  *

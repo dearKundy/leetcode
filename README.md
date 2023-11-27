@@ -69,11 +69,19 @@
 
 - [739. 每日温度](src/DailyTemperatures.java)
 
+
+**优先级队列**
+【大顶堆/小顶堆】
+- [239. 滑动窗口最大值](src/MaxSlidingWindow.java)
+
 **滑动窗口**
 
 - [209. 长度最小的子数组](src/MinSubArrayLen.java)
 - [3. 无重复字符的最长子串](src/LengthOfLongestSubstring.java)
 - [438. 找到字符串中所有字母异位词](src/FindAnagrams.java)
+
+**二叉树**
+- [144.二叉树的前序遍历-栈实现](src/PreorderTraversal.java)]
 
 
 - [2. 两数相加](src/AddTwoNumbers.java)
@@ -101,7 +109,7 @@
 - [120. 三角形最小路径和](src/MinimumTotal.java)
 - [146. LRU 缓存](src/LRUCache.java)
 - [152. 乘积最大子数组](src/MaxProduct.java)
-- [239. 滑动窗口最大值](src/MaxSlidingWindow.java)
+
 - [292. Nim 游戏（巴什博弈）](src/CanWinNim.java)
 - [300. 最长递增子序列](src/LengthOfLIS.java)
 - [322. 零钱兑换](src/CoinChange.java)
