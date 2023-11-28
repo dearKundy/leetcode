@@ -29,48 +29,34 @@ public class IsSymmetric {
     public boolean isSymmetric(TreeNode root) {
 
         if (root == null) {
+            return true;
+        }
+
+        return recur(root.left, root.right);
+    }
+
+    /**
+     * 这里要从节点的角度去思考这个递归，不能从整棵树的角度出发
+     */
+    public boolean recur(TreeNode left, TreeNode right) {
+
+        // 左右都为空，对称
+        if (left == null && right == null) {
+            return true;
+        }
+        // 能走到这儿，证明左右肯定有一个不为空，那么此时其中一个为空，则不对称。另外，如果左右节点的值不相等，则不对称。
+        if (left == null || right == null || left.val != right.val) {
             return false;
         }
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        // 左孩子的左节点要与右孩子的右节点相等
+        boolean leftSymmetric = recur(left.left, right.right);
+        // 左孩子的右节点要与右孩子的左节点相等
+        boolean rightSymmetric = recur(left.right, right.left);
 
-        // 初始化队列，塞两个头结点进去
-        queue.offer(root);
-        queue.offer(root);
+        // 左右节点都相等，则对称
+        return leftSymmetric && rightSymmetric;
 
-        while (!queue.isEmpty()) {
-
-            // 每次推两个元素出来
-            TreeNode node1 = queue.poll();
-            TreeNode node2 = queue.poll();
-
-            // 两者都为null，跳过
-            if (node1 == null && node2 == null) {
-                continue;
-            }
-
-            // 代码能够执行到这里，表明node1、node2至少有一个不为空
-            // 那么当其中一个为空时，node1、node2必然不相等
-            if (node1 == null || node2 == null) {
-                return false;
-            }
-
-            // 两个节点的值不相等，退出
-            if ((node1.val != node2.val)) {
-                return false;
-            }
-
-            // 两个结点的左右子结点按相反的顺序插入队列中
-            queue.offer(node1.left);
-            queue.offer(node2.right);
-
-            queue.offer(node1.right);
-            queue.offer(node2.left);
-
-        }
-
-
-        return true;
     }
 
 }
