@@ -29,33 +29,13 @@ public class MaxDepth {
     }
 
     public int maxDepth(TreeNode root) {
-        int res = 0;
 
         if (root == null) {
-            return res;
+            return 0;
         }
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-
-        while (!queue.isEmpty()) {
-
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode poll = queue.poll();
-
-                if (poll.left != null) {
-                    queue.offer(poll.left);
-                }
-                if (poll.right != null) {
-                    queue.offer(poll.right);
-                }
-            }
-            res++;
-
-        }
-
-        return res;
+        // 左右子树中深度较大的加根节点（+1）就是整棵树的最大深度
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 
 }
