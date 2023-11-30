@@ -1,6 +1,3 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 111. 二叉树的最小深度
  *
@@ -28,40 +25,30 @@ public class MinDepth {
         }
     }
 
-    public int maxDepth(TreeNode root) {
-        int res = 1;
-
+    public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-
-        while (!queue.isEmpty()) {
-
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode poll = queue.poll();
-
-                if (poll.left != null) {
-                    queue.offer(poll.left);
-                }
-                if (poll.right != null) {
-                    queue.offer(poll.right);
-                }
-
-                // 找到第一个叶子结点
-                if (poll.left == null && poll.right == null) {
-                    return res;
-                }
-
-            }
-            res++;
-
+        // 如果左右子树都为空，则深度为1
+        if (root.left == null && root.right == null) {
+            return 1;
         }
 
-        return res;
+        // 程序能执行到这里，证明，左右子树不会同时为空
+        // 如果左子树为空，则深度为右子树的最小深度+1
+        if (root.left == null) {
+            return minDepth(root.right) + 1;
+        }
+
+        // 如果右子树为空，则深度为左子树的最小深度+1
+        if (root.right == null) {
+            return minDepth(root.left) + 1;
+        }
+
+        // 左右子树中深度较小的加根节点（+1）就是整棵树的最小深度
+        return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+
     }
 
 }
