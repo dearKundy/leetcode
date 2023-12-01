@@ -89,7 +89,8 @@
 - [104.二叉树的最大深度](src/MaxDepth.java)
 - [111. 二叉树的最小深度](src/MinDepth.java)
 - [222.完全二叉树节点的数量](src/CountCompleteTreeNodes.java))
-- [110.平衡二叉树](src/IsBalanced.java))
+- [110.平衡二叉树](src/IsBalanced.java)
+- [257. 二叉树的所有路径](src/BinaryTreePaths.java)
 
 
 - [2. 两数相加](src/AddTwoNumbers.java)
