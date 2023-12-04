@@ -15,26 +15,26 @@ public class SelectSort {
 
     public static Integer[] sort(Integer[] array) {
 
-        int length = array.length;
+        // 每一轮最大的元素，放到已排序队列的末尾
+        for (int i = array.length - 1; i > 0; i--) {
 
-        // 为每一个元素找到它应该与哪一个元素交换位置
-        for (int i = 0; i < length; i++) {
+            // 记录当前这一轮的最大值的坐标
+            int maxIndex = 0;
 
-            // 假设当前元素就是最大值
-            int maxPos = i;
-
-            // 选出当前这一轮最大的元素下标
-            for (int j = i + 1; j < length; j++) {
-                if (array[j] > array[maxPos]) {
-                    maxPos = j;
+            // 从未排好序的数组中找出最大值，这里 j<= i，因为最大值也有可能是在坑位中的这个
+            for (int j = 0; j <= i; j++) {
+                if (array[j] > array[maxIndex]) {
+                    maxIndex = j;
                 }
             }
 
-            if (maxPos != i) {
-                swap(array, i, maxPos);
+            // 将当前找到的最大值与已排序队列的末尾元素进行交换（放进坑位）
+            if (maxIndex != i) {
+                swap(array, i, maxIndex);
             }
 
         }
+
         return array;
     }
 
