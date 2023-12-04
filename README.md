@@ -91,6 +91,10 @@
 - [222.完全二叉树节点的数量](src/CountCompleteTreeNodes.java))
 - [110.平衡二叉树](src/IsBalanced.java)
 - [257. 二叉树的所有路径](src/BinaryTreePaths.java)
+- [404.左叶子之和](src/SumOfLeftLeaves.java)
+- [513. 找树左下角的值](src/FindBottomLeftValue.java)
+- [112. 路径总和](src/PathSum.java)
+- [654.最大二叉树](src/constructMaximumBinaryTree.java)
 
 
 - [2. 两数相加](src/AddTwoNumbers.java)
@@ -148,7 +152,7 @@
 - [188. 买卖股票的最佳时机 IV](src/stock/Stock188.java)
 
 **排序**
-
-- [选择排序](src/sort/SelectSort.java)
 - [冒泡排序](src/sort/BubbleSort.java)
+- [选择排序](src/sort/SelectSort.java)
+
 - [插入排序](src/sort/InsertionSort.java)
