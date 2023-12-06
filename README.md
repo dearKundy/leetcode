@@ -95,6 +95,9 @@
 - [513. 找树左下角的值](src/FindBottomLeftValue.java)
 - [112. 路径总和](src/PathSum.java)
 - [654.最大二叉树](src/constructMaximumBinaryTree.java)
+- [617.合并二叉树](src/MergeTrees.java)
+- [700. 二叉搜索树中的搜索](src/SearchBST.java)
+- [98. 验证二叉搜索树](src/IsValidBST.java)
 
 
 - [2. 两数相加](src/AddTwoNumbers.java)
@@ -116,9 +119,7 @@
 - [62. 不同路径](src/UniquePaths.java)
 - [64. 最小路径和](src/MinPathSum.java)
 - [75. 颜色分类](src/SortColors.java)
-- [98. 验证二叉搜索树](src/IsValidBST.java)
-- [104. 二叉树的最大深度](src/MaxDepth.java)
-- [111. 二叉树的最小深度](src/MinDepth.java)
+
 - [120. 三角形最小路径和](src/MinimumTotal.java)
 - [146. LRU 缓存](src/LRUCache.java)
 - [152. 乘积最大子数组](src/MaxProduct.java)
@@ -152,6 +153,7 @@
 - [188. 买卖股票的最佳时机 IV](src/stock/Stock188.java)
 
 **排序**
+
 - [冒泡排序](src/sort/BubbleSort.java)
 - [选择排序](src/sort/SelectSort.java)
 - [插入排序](src/sort/InsertionSort.java)
