@@ -36,6 +36,8 @@ public class BinaryTreePaths {
     }
 
     /**
+     * 其实这个方法跟二叉树中的前序遍历是一样的，但是这里多了一个 path，这个path我们是一直复用的，所以在找到一个结果的时候，我们需要重置一下path，仅此而已【这就是回溯】
+     *
      * @param root 当前待处理的节点
      * @param path 当前路径
      * @param res  结果
