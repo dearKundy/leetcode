@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 平衡二叉树
  *

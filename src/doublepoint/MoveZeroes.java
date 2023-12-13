@@ -1,3 +1,5 @@
+package doublepoint;
+
 /**
  * 双指针-移动零
  *

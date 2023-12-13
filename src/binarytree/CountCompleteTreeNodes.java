@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 完全二叉树节点的数量
  *

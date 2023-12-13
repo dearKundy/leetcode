@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 98. 验证二叉搜索树
  *

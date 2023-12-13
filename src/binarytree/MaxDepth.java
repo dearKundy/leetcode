@@ -1,10 +1,15 @@
+package binarytree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
- * 700. 二叉搜索树中的搜索
+ * 104. 二叉树的最大深度
  *
  * @author kundy
- * @date 2023/12/6 15:17
+ * @date 2022/5/26 18:31
  */
-public class SearchBST {
+public class MaxDepth {
 
     public class TreeNode {
         int val;
@@ -25,21 +30,14 @@ public class SearchBST {
         }
     }
 
-    public TreeNode searchBST(TreeNode root, int val) {
+    public int maxDepth(TreeNode root) {
 
         if (root == null) {
-            return null;
+            return 0;
         }
 
-        if (root.val == val) {
-            return root;
-        }
-
-        if (root.val > val) {
-            return searchBST(root.left, val);
-        }
-        return searchBST(root.right, val);
-
+        // 左右子树中深度较大的加根节点（+1）就是整棵树的最大深度
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 
 }

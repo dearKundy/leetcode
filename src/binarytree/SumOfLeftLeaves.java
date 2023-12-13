@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 404.左叶子之和
  *

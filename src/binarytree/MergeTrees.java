@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 617.合并二叉树
  *

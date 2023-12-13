@@ -1,3 +1,5 @@
+package binarytree;
+
 /**
  * 112. 路径总和
  *
