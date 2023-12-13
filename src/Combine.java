@@ -25,8 +25,14 @@ public class Combine {
             return;
         }
 
+        // 不剪枝
+//        int loopCount = n;
+
+        // 剪枝（想要有解，至多可以这个位置开始，从这个位置以后的元素为起点的都无解了，凑不够数了）
+        int loopCount = n - (k - path.size()) + 1;
+
         // 处理 startIndex 及其以后的集合
-        for (int i = startIndex; i <= n; i++) {
+        for (int i = startIndex; i <= loopCount; i++) {
             // 当前遍历到的元素加入到路径中
             path.add(i);
             // 接下来，需要在 startIndex 之后的元素中继续寻找合适的元素
@@ -36,6 +42,9 @@ public class Combine {
         }
 
     }
+
+
+
 
 
 }
