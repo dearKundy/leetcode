@@ -49,7 +49,9 @@
 **回溯+剪枝**
 
 - [77. 组合](src/backtracking/Combine.java)
-- [216. 组合总和 III](src/CombinationSum3.java)
+- [216. 组合总和 III](src/backtracking/CombinationSum3.java)
+- [17. 电话号码的字母组合](src/backtracking/LetterCombinationsOfAPhoneNumber.java)
+- [39. 组合总和](src/backtracking/CombinationSum.java)
 
 **剑指offer**
 
