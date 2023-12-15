@@ -10,6 +10,10 @@
 - [15. 双指针-三数之和](src/doublepoint/ThreeSum.java)
 - [9. 回文数](src/doublepoint/IsPalindrome.java)
 
+**栈与队列**
+
+- [20. 有效的括号](src/stackandqueue/IsValid.java)
+
 **单调栈**
 
 - [739. 每日温度](src/monotonicstack/DailyTemperatures.java)
@@ -116,7 +120,7 @@
 
 - [11. 盛最多水的容器](src/MaxArea.java)
 
-- [20. 有效的括号](src/IsValid.java)
+
 - [23. 合并K个升序链表](src/MergeKLists.java)
 - [31. 下一个排列](src/NextPermutation.java)
 - [32. 最长有效括号](src/LongestValidParentheses.java)
