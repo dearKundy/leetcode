@@ -8,6 +8,7 @@
 
 - [283. 双指针-移动零](src/doublepoint/MoveZeroes.java)
 - [15. 双指针-三数之和](src/doublepoint/ThreeSum.java)
+- [9. 回文数](src/doublepoint/IsPalindrome.java)
 
 **单调栈**
 
@@ -52,6 +53,8 @@
 - [216. 组合总和 III](src/backtracking/CombinationSum3.java)
 - [17. 电话号码的字母组合](src/backtracking/LetterCombinationsOfAPhoneNumber.java)
 - [39. 组合总和](src/backtracking/CombinationSum.java)
+- [40.组合总和II](src/backtracking/CombinationSum2.java)
+- [131.分割回文串](src/backtracking/PalindromePartitioning.java)
 
 **剑指offer**
 
@@ -107,14 +110,10 @@
 - [二叉树遍历](src/datastructure/BinaryTreeTraversal.java)
 - [前缀树](src/datastructure/MyTrie.java)
 
-**LeetCode**
-
-
-
 
 
 - [2. 两数相加](src/AddTwoNumbers.java)
-- [9. 回文数](src/IsPalindrome.java)
+
 - [11. 盛最多水的容器](src/MaxArea.java)
 
 - [20. 有效的括号](src/IsValid.java)
