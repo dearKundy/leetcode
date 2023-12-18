@@ -59,6 +59,25 @@
 - [39. 组合总和](src/backtracking/CombinationSum.java)
 - [40.组合总和II](src/backtracking/CombinationSum2.java)
 - [131.分割回文串](src/backtracking/PalindromePartitioning.java)
+- [93.复原IP地址](src/backtracking/RestoreIpAddresses.java)
+- [78.子集](src/backtracking/Subsets.java)
+- [90.子集II](src/backtracking/SubsetsII.java)
+- [491. 递增子序列](src/backtracking/IncreasingSubsequences.java)
+- [46.全排列](src/backtracking/Permutations.java)
+- [47. 全排列 II](src/backtracking/PermutationsII.java)
+- [51. N皇后](src/backtracking/SolveNQueens.java)
+- [37. 解数独](src/backtracking/SudokuSolver.java)
+
+**贪心算法**
+【局部最优->全局最优】
+
+- [455. 分发饼干](src/greedy/Candy.java)
+- [376.摆动序列](src/greedy/WiggleSubsequence.java)
+
+**动态规划**
+
+
+
 
 **剑指offer**
 
@@ -129,7 +148,7 @@
 - [42. 接雨水](src/Trap.java)
 - [46. 全排列](src/Permute.java)
 - [48. 旋转图像](src/Rotate.java)
-- [51. N皇后](src/SolveNQueens.java)
+
 - [55. 跳跃游戏](src/CanJump.java)
 - [56. 合并区间](src/Merge.java)
 - [62. 不同路径](src/UniquePaths.java)
