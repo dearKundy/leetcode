@@ -14,7 +14,7 @@ public class SubsetsII {
     // 测试 subsetsWithDup
     public static void main(String[] args) {
 
-        int[] nums = {3, 2, 1};
+        int[] nums = {4, 4, 4, 1, 4};
 
         SubsetsII subsetsII = new SubsetsII();
 
@@ -52,5 +52,4 @@ public class SubsetsII {
         }
 
     }
-
 }

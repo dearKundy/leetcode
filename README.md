@@ -73,9 +73,18 @@
 
 - [455. 分发饼干](src/greedy/Candy.java)
 - [376.摆动序列](src/greedy/WiggleSubsequence.java)
+- [53. 最大子数组和](src/greedy/MaxSubArray.java)
+- [122. 买卖股票的最佳时机 II](src/greedy/Stock122.java)
+
 
 **动态规划**
 
+**股票系列**
+
+- [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
+- [122. 买卖股票的最佳时机 II](src/stock/Stock122.java)
+- [123. 买卖股票的最佳时机 III](src/stock/Stock123.java)
+- [188. 买卖股票的最佳时机 IV](src/stock/Stock188.java)
 
 
 
@@ -180,12 +189,7 @@
 - [重复 N 次的元素](src/RepeatedNTimes.java)
 - [连续字符串](src/MaxPower.java)
 
-  **股票系列**
 
-- [121. 买卖股票的最佳时机](/src/stock/Stock121.java)
-- [122. 买卖股票的最佳时机 II](src/stock/Stock122.java)
-- [123. 买卖股票的最佳时机 III](src/stock/Stock123.java)
-- [188. 买卖股票的最佳时机 IV](src/stock/Stock188.java)
 
 **排序**
 
