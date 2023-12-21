@@ -75,7 +75,9 @@
 - [376.摆动序列](src/greedy/WiggleSubsequence.java)
 - [53. 最大子数组和](src/greedy/MaxSubArray.java)
 - [122. 买卖股票的最佳时机 II](src/greedy/Stock122.java)
-
+- [55. 跳跃游戏](src/greedy/JumpGame.java)
+- [55. 跳跃游戏](src/CanJump.java)
+- [45.跳跃游戏II]
 
 **动态规划**
 
@@ -158,7 +160,7 @@
 - [46. 全排列](src/Permute.java)
 - [48. 旋转图像](src/Rotate.java)
 
-- [55. 跳跃游戏](src/CanJump.java)
+
 - [56. 合并区间](src/Merge.java)
 - [62. 不同路径](src/UniquePaths.java)
 - [64. 最小路径和](src/MinPathSum.java)
